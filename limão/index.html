@@ -1,86 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Limão</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8bc34a;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #cddc39;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #8bc34a;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
-
-<body style="background-color: #7FFF00;">
+<body>
     <header>
-        <div class="container">
-            <h1>Site de Limão</h1>
-            <nav>
-                <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Site de Limão</h1>
     </header>
-
-    <section id="sobre" class="section">
-        <div class="container">
-            <h2 class="section-title">Sobre Nós</h2>
-            <p class="section-content">Somos apaixonados por limões frescos e oferecemos os melhores produtos para os nossos clientes.</p>
-        </div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Receitas</a>
+        <a href="#">Benefícios</a>
+        <a href="#">Contato</a>
+    </nav>
+    <section>
+        <h2>Bem-vindo ao Site de Limão</h2>
+        <p>Explore o mundo dos limões conosco! Aqui você encontrará deliciosas receitas, informações sobre os benefícios para a saúde e muito mais.</p>
     </section>
-
-    <section id="produtos" class="section">
-        <div class="container">
-            <h2 class="section-title">Nossos Produtos</h2>
-            <div class="product">
-                <img src="limao1.jpg" alt="Limão Siciliano">
-                <h3 class="product-title">Limão Siciliano</h3>
-                <p class="product-price">R$ 5,00 / kg</p>
-                <p class="product-description">O limão siciliano é conhecido por seu sabor único e aroma delicioso.</p>
-                <button class="btn">Comprar</button>
-            </div>
-            <div class="product">
-                <img src="limao2.jpg" alt="Limão Taiti">
-                <h3 class="product-title">Limão Taiti</h3>
-                <p class="product-price">R$ 4,00 / kg</p>
-                <p class="product-description">O limão taiti é perfeito para sucos refrescantes e sobremesas.</p>
-                <button class="btn">Comprar</button>
-            </div>
-            <div class="product">
-                <img src="limao3.jpg" alt="Limão Galego">
-                <h3 class="product-title">Limão Galego</h3>
-                <p class="product-price">R$ 3,50 / kg</p>
-                <p class="product-description">O limão galego é ideal para temperar pratos e fazer molhos.</p>
-                <button class="btn">Comprar</button>
-            </div>
-            <div class="product">
-                <img src="limao4.jpg" alt="Limão Cravo">
-                <h3 class="product-title">Limão Cravo</h3>
-                <p class="product-price">R$ 4,50 / kg</p>
-                <p class="product-description">O limão cravo é conhecido por seu aroma intenso e sabor marcante.</p>
-                <button class="btn">Comprar</button>
-            </div>
-        </div>
-    </section>
-
-    <section id="contato" class="section">
-        <div class="container">
-            <h2 class="section-title">Entre em Contato</h2>
-            <form class="contact-form" action="#" method="post">
-                <input type="text" name="nome" placeholder="Seu Nome" required>
-                <input type="email" name="email" placeholder="Seu E-mail" required>
-                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
-    </section>
-
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Site de Limão. Todos os direitos reservados.</p>
-        </div>
+        <p>&copy; 2024 Site de Limão. Todos os direitos reservados.</p>
     </footer>
 </body>
-
 </html>
-
